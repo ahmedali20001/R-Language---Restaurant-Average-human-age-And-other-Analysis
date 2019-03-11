@@ -1,0 +1,11 @@
+Human_age = int(input("Input your dog’s age in human years: "))
+
+if Human_age < 0:
+    print("user reenter dog’s age.")
+    exit()
+elif Human_age <= 2:
+    Dog_age = Human_age * 10.5
+else:
+    Dog_age = 21 + (Human_age - 2)*4
+
+print("Your dog’s age in dog year is", Dog_age)

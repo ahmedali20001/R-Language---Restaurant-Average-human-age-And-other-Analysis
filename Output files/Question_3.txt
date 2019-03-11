@@ -1,0 +1,9 @@
+default_value ="US"
+def city_state(city, default_value ):
+   print(city," is in" ,default_value)
+   return;
+
+
+city_state( city="Alaska", default_value="US" )
+city_state( city="California", default_value="US" )
+city_state( city="New Mexico", default_value="US" )

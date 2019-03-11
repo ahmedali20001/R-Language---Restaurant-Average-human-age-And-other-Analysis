@@ -1,0 +1,34 @@
+class restaurant:
+
+    def __init__(self, restaurant_name, restaurant_type):
+        self.restaurant_name = restaurant_name
+        self.restaurant_type = restaurant_type
+    
+    def describe_restaurant(self):
+        print("Restaurant Name: ",self.restaurant_name)
+        print("Restaurant type: ",self.restaurant_type)
+    def open_restaurant(self):
+        print(self.restaurant_name,"restaurant is open")
+        
+        
+class cafes(restaurant):
+
+    def __init__(self, menu):
+        self.menu= menu.title()
+    
+    def display(self):
+        print("Menu :",self.menu)
+
+ins1 = restaurant('Bistro','French')
+ins1.describe_restaurant()
+ins1.open_restaurant() 
+ins1 = cafes('Hipotle Chicken Taco Salad,Grilled Chicken Cobb Salad,Grilled Chicken Caesar Salad,Grilled Chicken & Tropical Fruit on Mixed Greens')
+ins1.display()
+print("")    
+
+ins2 = restaurant('Trattoria ','Italian')
+ins2.describe_restaurant()
+ins2.open_restaurant() 
+ins2 = cafes('Grilled Chicken Caesar Salad,Grilled Chicken & Tropical Fruit on Mixed Greens,coke,pepsi')
+ins2.display()
+

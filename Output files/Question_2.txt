@@ -1,0 +1,12 @@
+def my_function():
+    weight= int(input("Enter weight :"))
+    height= int(input("Enter height :"))
+    bmi = (weight * 720.0) / height**2
+    if int(bmi) in range(19, 25):
+        print("You are healthy")
+    elif bmi < 19:
+            print("You need to eat more")
+    elif bmi > 25:
+            print("Let’s work out and be healthy")
+    print("Your body BMI: ",bmi)
+my_function()

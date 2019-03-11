@@ -1,0 +1,127 @@
+DUE TODAY : 
+
+Here are the assignment that need done by 48 hour. I would also want to know the price for this assignment. 
+
+Question 1:  Write a program to calculate a dog’s age comparing to that of human. For the first two years, a dog year is equal to 10.5 human years. After that, each dog year equal to 4 human years
+
+To write the program
+
+1.       Record your name, class number, and date of creation.
+
+2.       Accept users’ input prompting a message similar to “Input your dog’s age in human years”
+If a user enter less than 0 for the dog’s age, print out a message that leads the user reenter their dog’s age.
+
+3.       Use if-elif-else structure (or if-else) to calculate the dog’s age in first two years and after 2 years, using the formula below:
+the dog age in the first two years = human age * 10.5
+After the first two years, dog age = 21 + (human age – 2 ) * 4
+
+4.       Print a message similar to “Your dog’s age in dog year is” and tell the users their dog’s age
+
+ 
+
+When you have completed the program, run the program and capture and paste the output below:
+
+Paste code and the captured output here:
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Question 2  Create a program that calculates the body mass index (BMI). BMI is calculated as a person’s weights (in pounds) times 720, divided by the square of the person’s height (in inches). To create the program:
+
+1.       Record your first and last name, class number, and date of creation
+
+2.       Accept information from users about how tall he/she is (in inches)
+
+3.       Accept information from users about his/her weight (in pounds)
+
+4.       Calculate BMI with the formula: bmi = (weight * 720.0) / height**2
+
+5.       Use function and if statement that calculates the BMI and returns the weight status
+
+6.       If a BMI ranges between 19 – 25, print out his/her BMI and a message similar to “You are healthy”, 
+if a BMI is below 19, print out a his/her BMI along with a message similar to “You need to eat more”, 
+if a BMI is over 25, print out his/her BMI with a message similar to “Let’s work out and be healthy.”
+
+ 
+
+When you have completed the program, run the program and capture and paste the output below:
+
+Paste code and the captured output here:
+
+ 
+
+Question 3 Write a function called city_state() that accepts the name of a city and its state. The function should print a simple sentence, which is “Milwaukee is in Wisconsin.” Give the parameter for the state a default value. Call your function for three different cities.
+
+When you have completed the program, run the program and capture and paste the output below:
+
+Paste code and the captured output screen here  
+
+ 
+
+
+
+Question 4:  Write a program that includes a class called ‘restaurant’ and at least three attributes of a restaurant.
+
+To write the program:
+
+1.       Create a module named h05_restaurant_class.py
+
+2.       Record class, your first and last name, date of creation.
+
+3.       The __init__() method for restaurant should store two attributes: a) restaurant_name and b) restaurant_type.
+
+4.       Make a method called describe_restaurant() that prints these two pieces of information and a method called open_restaurant() that prints a message indicating that the restaurant is open
+
+5.       Create at least three different instances from your class.
+
+6.       Print the two attributes individually and then call both methods for each instance.
+
+When you have completed the program, run the program and capture and paste the output below:
+
+Paste the code and captured output here 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Question 5 Create a program that deals with cafes. A cafe is a specific type of restaurant. Thus, this new class needs to inherit from restaurant class you wrote in question 1.
+
+To create the program:
+
+1.       Create a module named h05_cafe_class.py.
+*Tip: You can “save as” h05_resturant_class.py to h05_cafe_class.py to copy all code in the original file.
+
+2.       Record class, your first and last name, date of creation.
+
+3.       Write a class called cafe that inherits from the restaurant class you wrote in Q1.
+
+4.       Add an attribute called menu that stores a list of food and/or beverage products.
+
+5.       Write a method that displays these products.
+
+6.       Create two instances with menu and call this method
+
+ 
+
+When you have completed the program, run the program and capture and paste the output below:
+
+Paste the code and the captured output here

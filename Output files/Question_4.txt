@@ -1,0 +1,29 @@
+class restaurant:
+
+    def __init__(self, restaurant_name, restaurant_type):
+        self.restaurant_name = restaurant_name
+        self.restaurant_type = restaurant_type
+    
+    def describe_restaurant(self):
+        print("Restaurant Name: ",self.restaurant_name)
+        print("Restaurant type: ",self.restaurant_type)
+    def open_restaurant(self):
+        print(self.restaurant_name,"restaurant is open")
+        
+ins1 = restaurant('Bistro','French')
+ins1.describe_restaurant()
+ins1.open_restaurant() 
+print("")
+ins2 = restaurant('Trattoria ','Italian')
+ins2.describe_restaurant()
+ins2.open_restaurant() 
+print("")
+ins3 = restaurant('Chiringuito','Spanish')
+ins3.describe_restaurant()
+ins3.open_restaurant() 
+
+#BMI Function as requested
+print("\n\n BMI Calculation")
+height = float(input("Input your height in meters: "))
+weight = float(input("Input your weight in kilogram: "))
+print("Your body mass index is: ", round(weight / (height * height), 2))s
